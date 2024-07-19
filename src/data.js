@@ -72,6 +72,18 @@ export const products = [
     inStock: false,
     color: "Green",
   },
+  {
+    id: 7,
+    name: "Catnip Toy",
+    image:
+      "https://i.insider.com/5b353db544e9882f008b46d3?width=1400&format=jpeg&auto=webp",
+    category: "Toys",
+    description: "Fun catnip toy to keep your cat playful and active.",
+    price: 12,
+    animalType: "Cat",
+    inStock: false,
+    color: "Green",
+  },
 ];
 
 export function getProductById(id) {
